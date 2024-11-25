@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote fetch="ssh://git@github.com/open-vela/" name="openvela" />
-  <remote fetch="ssh://git@github.com" name="github" />
-  <default remote="openvela" revision="trunk" />
+  <remote fetch="../open-vela/" name="openvela" />
+  <remote fetch="../" name="git" />
+
+  <default remote="openvela" revision="dev" />
 
   <project path="apps" name="apps" />
   <project path="apps/benchmarks/coremark/coremark" name="apps_benchmarks_coremark" />
@@ -215,16 +216,16 @@
 
 
   <project path="prebuilts/gcc/darwin-aarch64/arm" name="openvela-toolchain/prebuilts_gcc_darwin-aarch64_arm-none-eabi"
-           remote="github" revision="13.2.rel1" clone-depth="1" />
+           remote="git" revision="13.2.rel1" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-aarch64/arm64" name="openvela-toolchain/prebuilts_gcc_darwin-aarch64_aarch64-none-elf"
-           remote="github" revision="13.2.rel1" clone-depth="1" />
+           remote="git" revision="13.2.rel1" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86_64/arm" name="openvela-toolchain/prebuilts_gcc_darwin-x86_64_arm-none-eabi"
-           remote="github" revision="13.2.rel1" clone-depth="1"  />
+           remote="git" revision="13.2.rel1" clone-depth="1"  />
   <project path="prebuilts/gcc/darwin-x86_64/arm64" name="openvela-toolchain/prebuilts_gcc_darwin-x86_64_aarch64-none-elf"
-           remote="github" revision="13.2.rel1" clone-depth="1"  />
+           remote="git" revision="13.2.rel1" clone-depth="1"  />
   <project path="prebuilts/gcc/linux/arm" name="openvela-toolchain/prebuilts_gcc_linux-x86_64_arm-none-eabi"
-           remote="github" revision="13.2.rel1" clone-depth="1" />
+           remote="git" revision="13.2.rel1" clone-depth="1" />
   <project path="prebuilts/gcc/linux/arm64" name="openvela-toolchain/prebuilts_gcc_linux-x86_64_aarch64-none-elf"
-           remote="github" revision="13.2.rel1" clone-depth="1" />
+           remote="git" revision="13.2.rel1" clone-depth="1" />
 
 </manifest>
