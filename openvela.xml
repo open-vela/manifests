@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote fetch="ssh://git@github.com/open-vela/" name="openvela" />
-  <remote fetch="ssh://git@github.com" name="github" />
+  <remote fetch="../open-vela/" name="openvela" />
+  <remote fetch="../" name="github" />
   <default remote="openvela" revision="trunk" />
 
   <project path="apps" name="apps" />
