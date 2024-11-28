@@ -214,6 +214,7 @@
   <project path="vendor/xiaomi/vela" name="vendor_xiaomi_vela" />
   <project path="vendor/xiaomi/vela/pyxis" name="vendor_xiaomi_pyxis" />
 
+  <project path="prebuilts/kconfig-frontends" name="prebuilts_kconfig-frontends" />
 
   <project path="prebuilts/gcc/darwin-aarch64/arm" name="openvela-toolchain/prebuilts_gcc_darwin-aarch64_arm-none-eabi"
            remote="git" revision="13.2.rel1" clone-depth="1" />
