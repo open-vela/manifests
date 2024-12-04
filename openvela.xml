@@ -168,7 +168,6 @@
   <project path="frameworks/system" name="frameworks_system" />
   <project path="frameworks/system/binder" name="frameworks_system_binder" />
   <project path="frameworks/system/charger" name="frameworks_system_charger" />
-  <project path="frameworks/system/dfx" name="frameworks_system_dfx" />
   <project path="frameworks/system/healthd" name="frameworks_system_healthd" />
   <project path="frameworks/system/ota" name="frameworks_system_ota" />
   <project path="frameworks/system/topics" name="frameworks_system_topics" />
