@@ -1,2 +1,3 @@
 # manifests
 new
+sync github
