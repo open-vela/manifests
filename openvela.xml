@@ -195,6 +195,7 @@
   <project path="nuttx/openamp/open-amp" name="nuttx_openamp_open-amp" />
   <project path="packages" name="packages" />
   <project path="packages/demos" name="packages_demos" />
+  <project path="packages/fe/examples" name="packages_fe_examples"/>
   <project path="prebuilts/emulator/darwin-aarch64" name="prebuilts_emulator_darwin-aarch64" clone-depth="1" />
   <project path="prebuilts/emulator/darwin-x86_64" name="prebuilts_emulator_darwin-x86_64" clone-depth="1" />
   <project path="prebuilts/emulator/linux-aarch64" name="prebuilts_emulator_linux-aarch64" clone-depth="1" />
