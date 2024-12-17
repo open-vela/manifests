@@ -150,7 +150,6 @@
   <project path="frameworks/multimedia/media" name="frameworks_multimedia_media" />
   <project path="frameworks/multimedia/media/pfw" name="frameworks_multimedia_media_pfw" />
   <project path="frameworks/runtimes" name="frameworks_runtimes" />
-  <project path="frameworks/runtimes/java" name="frameworks_runtimes_java" />
   <project path="frameworks/runtimes/services" name="frameworks_runtimes_services" />
   <project path="frameworks/runtimes/services/am" name="frameworks_runtimes_services_am" />
   <project path="frameworks/runtimes/services/brightness" name="frameworks_runtimes_services_brightness" />
