@@ -2,7 +2,6 @@
 <manifest>
   <remote fetch="../open-vela/" name="openvela" />
   <remote fetch="../" name="git" />
-
   <default remote="openvela" revision="dev" />
 
   <project path="apps" name="apps" />
