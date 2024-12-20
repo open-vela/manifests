@@ -193,6 +193,7 @@
   <project path="nuttx/openamp/libmetal" name="nuttx_openamp_libmetal" />
   <project path="nuttx/openamp/open-amp" name="nuttx_openamp_open-amp" />
   <project path="packages" name="packages" />
+  <project path="packages/apps" name="packages_apps" />
   <project path="packages/demos" name="packages_demos" />
   <project path="packages/fe/examples" name="packages_fe_examples"/>
   <project path="prebuilts/emulator/darwin-aarch64" name="prebuilts_emulator_darwin-aarch64" clone-depth="1" />
