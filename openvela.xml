@@ -4,7 +4,7 @@
   <remote fetch="../" name="git" />
   <default remote="openvela" revision="trunk" />
 
-  <project path="apps" name="apps" />
+  <project path="apps" name="nuttx-apps" />
   <project path="apps/benchmarks/coremark/coremark" name="apps_benchmarks_coremark" />
   <project path="apps/benchmarks/test-tlb/test-tlb" name="apps_benchmarks_test-tlb" />
   <project path="apps/crypto/libsodium/libsodium" name="apps_crypto_libsodium" />
