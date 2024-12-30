@@ -186,10 +186,10 @@
   <project path="nuttx/libs/libm/libmcs/libmcs" name="nuttx_libs_libm_libmcs" />
   <project path="nuttx/libs/libm/newlib/newlib" name="nuttx_libs_libm_newlib" />
   <project path="nuttx/libs/libm/openlibm/openlibm" name="nuttx_libs_libm_openlibm" />
-  <project path="nuttx/libs/libxx/libcxx" name="nuttx_libs_libxx_libcxx" />
-  <project path="nuttx/libs/libxx/libcxxabi" name="nuttx_libs_libxx_libcxxabi" />
-  <project path="nuttx/libs/libxx/libstdc++" name="nuttx_libs_libxx_libstdcpp" />
-  <project path="nuttx/libs/libxx/uClibc++" name="nuttx_libs_libxx_uClibcpp" />
+  <project path="nuttx/libs/libxx/libcxx/libcxx" name="nuttx_libs_libxx_libcxx" />
+  <project path="nuttx/libs/libxx/libcxxabi/libcxxabi" name="nuttx_libs_libxx_libcxxabi" />
+  <project path="nuttx/libs/libxx/libstdc++/libstdc++" name="nuttx_libs_libxx_libstdcpp" />
+  <project path="nuttx/libs/libxx/uClibc++/uClibc++" name="nuttx_libs_libxx_uClibcpp" />
   <project path="nuttx/mm/tlsf/tlsf" name="nuttx_mm_tlsf" />
   <project path="nuttx/openamp/libmetal" name="nuttx_openamp_libmetal" />
   <project path="nuttx/openamp/open-amp" name="nuttx_openamp_open-amp" />
