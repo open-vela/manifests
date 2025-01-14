@@ -139,7 +139,7 @@
   <project path="external/vector-sil/sil-kit-adapters-qemu" name="external_vector-sil_sil-kit-adapters-qemu" />
   <project path="external/vector-sil/sil-kit-adapters-vcan" name="external_vector-sil_sil-kit-adapters-vcan" />
   <project path="external/yoga/yoga" name="external_yoga" />
-  <project path="external/zblue/zblue" name="external_zblue" />
+  <project path="external/zblue/zblue" name="external_zblue" revision="dev-upgrade-4.0.0" />
   <project path="external/zint/zint" name="external_zint" />
   <project path="frameworks" name="frameworks" />
   <project path="frameworks/connectivity" name="frameworks_connectivity" />
