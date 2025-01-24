@@ -229,9 +229,14 @@
   <project path="prebuilts/gcc/linux/arm64" name="openvela-toolchain/prebuilts_gcc_linux-x86_64_aarch64-none-elf"
            remote="git" revision="13.2.rel1" clone-depth="1" />
 
-  <project path="prebuilts/gcc/darwin-aarch64/x86_64-none-linux-gnu" name="openvela-toolchain/prebuilts_gcc_darwin-aarch64_x86_64-none-linux-gnu" remote="git" revision="main" clone-depth="1" groups="notdefault,platform-darwin"/>
-  <project path="prebuilts/gcc/linux-aarch64/x86_64-none-linux-gnu" name="openvela-toolchain/prebuilts_gcc_linux-aarch64_x86_64-none-linux-gnu" remote="git" revision="main" clone-depth="1" groups="notdefault,platform-linux" />
-  <project path="prebuilts/gcc/linux-x86_64/x86_64-none-linux-gnu" name="openvela-toolchain/prebuilts_gcc_linux-x86_64_x86_64-none-linux-gnu" remote="git" revision="main" clone-depth="1" groups="notdefault,platform-linux" />
-  <project path="prebuilts/gcc/windows-x86_64/x86_64-none-linux-gnu" name="openvela-toolchain/prebuilts_gcc_windows-x86_64_x86_64-none-linux-gnu" remote="git" revision="main" clone-depth="1" groups="notdefault,platform-windows" />
+  <project path="prebuilts/gcc/darwin-aarch64/x86_64-none-linux-gnu" name="openvela-toolchain/prebuilts_gcc_darwin-aarch64_x86_64-none-linux-gnu"
+           remote="git" revision="main" clone-depth="1" groups="notdefault,platform-darwin"/>
+  <project path="prebuilts/gcc/linux-aarch64/x86_64-none-linux-gnu" name="openvela-toolchain/prebuilts_gcc_linux-aarch64_x86_64-none-linux-gnu"
+           remote="git" revision="main" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/gcc/linux-x86_64/x86_64-none-linux-gnu" name="openvela-toolchain/prebuilts_gcc_linux-x86_64_x86_64-none-linux-gnu"
+           remote="git" revision="main" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/gcc/windows-x86_64/x86_64-none-linux-gnu" name="openvela-toolchain/prebuilts_gcc_windows-x86_64_x86_64-none-linux-gnu"
+           remote="git" revision="main" clone-depth="1" groups="notdefault,platform-windows" />
+  <project path="prebuilts/tools" name="prebuilts_tools" clone-depth="1" />
 
 </manifest>
