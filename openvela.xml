@@ -145,6 +145,7 @@
   <project path="frameworks/connectivity/bluetooth" name="frameworks_bluetooth" />
   <project path="frameworks/connectivity/telephony" name="frameworks_connectivity_telephony" />
   <project path="frameworks/graphics" name="frameworks_graphics" />
+  <project path="frameworks/graphics/gpu_tools" name="frameworks_graphics_gpu_tools" />
   <project path="frameworks/graphics/uikit" name="frameworks_graphics_uikit" />
   <project path="frameworks/multimedia" name="frameworks_multimedia" />
   <project path="frameworks/multimedia/media" name="frameworks_multimedia_media" />
