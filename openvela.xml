@@ -78,6 +78,7 @@
   <project path="external/enet/enet" name="external_enet" />
   <project path="external/erpc/erpc" name="external_erpc" />
   <project path="external/exfatprogs/exfatprogs" name="external_exfatprogs" />
+  <project path="external/ffmpeg/ffmpeg" name="external_ffmpeg" />
   <project path="external/fluoride/fluoride" name="external_fluoride" />
   <project path="external/fmtlib/fmtlib" name="external_fmtlib" />
   <project path="external/freetype/freetype" name="external_freetype" />
