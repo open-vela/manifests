@@ -49,7 +49,7 @@
   <project path="external/aac/aac" name="external_aac" />
   <project path="external/abseil-cpp/abseil-cpp" name="external_abseil-cpp" />
   <project path="external/android/frameworks/native" name="external_android_frameworks_native" />
-    <project path="external/android/hardware/interfaces" name="external_android_hardware_interfaces" />
+  <project path="external/android/hardware/interfaces" name="external_android_hardware_interfaces" />
   <project path="external/android/hardware/libhardware" name="external_android_hardware_libhardware" />
   <project path="external/android/system/chre/chre" name="external_android_system_chre" />
   <project path="external/android/system/chre/chre/host/nuttx" name="external_android_system_chre_chre_host_nuttx" />
@@ -198,6 +198,7 @@
   <project path="packages/apps" name="packages_apps" />
   <project path="packages/demos" name="packages_demos" />
   <project path="packages/fe/examples" name="packages_fe_examples"/>
+  <project path="prebuilts/clang/linux/wasm" name="prebuilts_clang_linux_wasm" clone-depth="1" />
   <project path="prebuilts/emulator/darwin-aarch64" name="prebuilts_emulator_darwin-aarch64" clone-depth="1" />
   <project path="prebuilts/emulator/darwin-x86_64" name="prebuilts_emulator_darwin-x86_64" clone-depth="1" />
   <project path="prebuilts/emulator/linux-aarch64" name="prebuilts_emulator_linux-aarch64" clone-depth="1" />
