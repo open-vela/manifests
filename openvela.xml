@@ -31,6 +31,7 @@
   <project path="apps/netutils/connectedhomeip/nlio" name="apps_netutils_connectedhomeip_nlio" />
   <project path="apps/netutils/connectedhomeip/pigweed" name="apps_netutils_connectedhomeip_pigweed" />
   <project path="apps/netutils/jsoncpp/jsoncpp" name="apps_netutils_jsoncpp" />
+  <project path="apps/netutils/libwebsockets/libwebsockets" name="apps_netutils_libwebsockets" />
   <project path="apps/netutils/mqttc/MQTT-C" name="apps_netutils_mqttc_MQTT-C" />
   <project path="apps/system/adb/microADB" name="apps_system_adb_microADB" />
   <project path="apps/system/argtable3/argtable3" name="apps_system_argtable3" />
