@@ -201,15 +201,6 @@
   <project path="packages/demos" name="packages_demos" />
   <project path="packages/fe/examples" name="packages_fe_examples"/>
   <project path="prebuilts/clang/linux/wasm" name="prebuilts_clang_linux_wasm" clone-depth="1" />
-  <project path="prebuilts/emulator/darwin-aarch64" name="prebuilts_emulator_darwin-aarch64" clone-depth="1" />
-  <project path="prebuilts/emulator/darwin-x86_64" name="prebuilts_emulator_darwin-x86_64" clone-depth="1" />
-  <project path="prebuilts/emulator/linux-aarch64" name="prebuilts_emulator_linux-aarch64" clone-depth="1" />
-  <project path="prebuilts/emulator/linux-x86_64" name="prebuilts_emulator_linux-x86_64" clone-depth="1" />
-  <project path="prebuilts/emulator/skins" name="prebuilts_emulator_skins" />
-  <project path="prebuilts/emulator/tools" name="prebuilts_emulator_tools" clone-depth="1">
-    <linkfile src="emulator.sh" dest="emulator.sh" />
-  </project>
-  <project path="prebuilts/emulator/windows-x86_64" name="prebuilts_emulator_windows-x86_64" clone-depth="1" />
   <project path="tests" name="tests" />
   <project path="vendor" name="vendor" />
   <project path="vendor/openvela" name="vendor_openvela" />
@@ -217,6 +208,16 @@
   <project path="vendor/xiaomi" name="vendor_xiaomi" />
   <project path="vendor/xiaomi/vela" name="vendor_xiaomi_vela" />
   <project path="vendor/xiaomi/vela/pyxis" name="vendor_xiaomi_pyxis" />
+
+  <!-- openvela prebuilt emulator -->
+  <project path="prebuilts/emulator/linux-x86_64" name="prebuilts_emulator_linux-x86_64" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/emulator/linux-aarch64" name="prebuilts_emulator_linux-aarch64" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/emulator/darwin-aarch64" name="prebuilts_emulator_darwin-aarch64" clone-depth="1" groups="notdefault,platform-darwin" />
+  <project path="prebuilts/emulator/windows-x86_64" name="prebuilts_emulator_windows-x86_64" clone-depth="1" groups="notdefault,platform-windows" />
+  <project path="prebuilts/emulator/skins" name="prebuilts_emulator_skins" />
+  <project path="prebuilts/emulator/tools" name="prebuilts_emulator_tools" clone-depth="1">
+    <linkfile src="emulator.sh" dest="emulator.sh" />
+  </project>
 
   <project path="prebuilts/kconfig-frontends" name="prebuilts_kconfig-frontends" />
 
