@@ -242,6 +242,12 @@
   <project path="prebuilts/qemu/darwin-aarch64" name="prebuilts_qemu_darwin-aarch64" clone-depth="1" groups="notdefault,platform-darwin" />
   <project path="prebuilts/qemu/windows-x86_64" name="prebuilts_qemu_windows-x86_64" clone-depth="1" groups="notdefault,platform-windows" />
 
+  <!-- openvela prebuilt build-tools -->
+  <project path="prebuilts/build-tools/linux-x86_64" name="prebuilts_build-tools_linux-x86_64" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/build-tools/linux-aarch64" name="prebuilts_build-tools_linux-aarch64" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/build-tools/darwin-aarch64" name="prebuilts_build-tools_darwin-aarch64" clone-depth="1" groups="notdefault,platform-darwin" />
+  <project path="prebuilts/build-tools/windows-x86_64" name="prebuilts_build-tools_windows-x86_64" clone-depth="1" groups="notdefault,platform-windows" />
+
   <project path="prebuilts/gcc/linux-x86_64/xtensa-esp32s3-elf" name="openvela-toolchain-external/prebuilts_gcc_linux-x86_64_xtensa-esp32s3-elf"
            remote="git" revision="main" clone-depth="1" groups="notdefault,platform-linux" />
 
