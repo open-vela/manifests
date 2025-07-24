@@ -46,7 +46,7 @@
   <project path="apps/testing/nist-sts/nist-sts" name="apps_testing_nist-sts" />
   <project path="apps/testing/stressapptest/stressapptest" name="apps_testing_stressapptest" />
   <project path="apps/testing/unity/Unity" name="apps_testing_unity_Unity" />
-  <project path="docs" name="docs" />
+  <!--project path="docs" name="docs" /-->
   <project path="external" name="external" />
   <project path="external/aac/aac" name="external_aac" />
   <project path="external/abseil-cpp/abseil-cpp" name="external_abseil-cpp" />
