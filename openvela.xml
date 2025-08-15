@@ -121,6 +121,7 @@
   <project path="external/optee/kmgk/kmgk" name="external_optee_kmgk" />
   <project path="external/optee/optee_client/optee_client" name="external_optee_optee_client" />
   <project path="external/optee/optee_examples/optee_examples" name="external_optee_optee_examples" />
+  <project path="external/optee/optee_test/optee_test" name="external_optee_optee_test" />
   <project path="external/optee/optee_os/optee_os" name="external_optee_optee_os" />
   <project path="external/opus/opus" name="external_opus" />
   <project path="external/protobuf/protobuf" name="external_protobuf" />
