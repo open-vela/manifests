@@ -203,6 +203,7 @@
   <project path="prebuilts/clang/linux/wasm" name="prebuilts_clang_linux_wasm" clone-depth="1" />
   <project path="tests" name="tests" />
   <project path="vendor" name="vendor" />
+  <project path="vendor/allwinnertech" name="vendor_allwinnertech" />
   <project path="vendor/bes" name="vendor_bes" />
   <project path="vendor/espressif" name="vendor_espressif" />
   <project path="vendor/openvela" name="vendor_openvela" />
