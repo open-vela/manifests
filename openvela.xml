@@ -39,10 +39,10 @@
   <project path="apps/system/libuv/libuv" name="apps_system_libuv" />
   <project path="apps/system/zlib/zlib" name="apps_system_zlib" />
   <project path="apps/testing/cmocka/cmocka" name="apps_testing_cmocka" />
+  <project path="apps/testing/drivers/nist-sts" name="apps_testing_drivers_nist-sts" />
   <project path="apps/testing/fff/fff" name="apps_testing_fff" />
   <project path="apps/testing/libc-test/libc-test" name="apps_testing_libc-test" />
   <project path="apps/testing/ltp/ltp" name="apps_testing_ltp" />
-  <project path="apps/testing/nist-sts/nist-sts" name="apps_testing_nist-sts" />
   <project path="apps/testing/stressapptest/stressapptest" name="apps_testing_stressapptest" />
   <project path="apps/testing/unity/Unity" name="apps_testing_unity_Unity" />
   <project path="docs" name="docs" />
@@ -192,7 +192,6 @@
   <project path="nuttx/libs/libxx/libcxx/libcxx" name="nuttx_libs_libxx_libcxx" />
   <project path="nuttx/libs/libxx/libcxxabi/libcxxabi" name="nuttx_libs_libxx_libcxxabi" />
   <project path="nuttx/libs/libxx/libstdc++/libstdc++" name="nuttx_libs_libxx_libstdcpp" />
-  <project path="nuttx/libs/libxx/uClibc++/uClibc++" name="nuttx_libs_libxx_uClibcpp" />
   <project path="nuttx/mm/tlsf/tlsf" name="nuttx_mm_tlsf" />
   <project path="nuttx/openamp/libmetal" name="nuttx_openamp_libmetal" />
   <project path="nuttx/openamp/open-amp" name="nuttx_openamp_open-amp" />
@@ -206,12 +205,16 @@
   <project path="vendor/allwinnertech" name="vendor_allwinnertech" />
   <project path="vendor/bes" name="vendor_bes" />
   <project path="vendor/espressif" name="vendor_espressif" />
+  <project path="vendor/flagchip" name="velaos/vendor/flagchip" />
+  <project path="vendor/infineon" name="velaos/vendor/infineon" />
   <project path="vendor/openvela" name="vendor_openvela" />
+  <project path="vendor/openvela/boards/sil" name="vela/vendor/openvela/boards/sil" />
   <project path="vendor/sifli" name="vendor_sifli" />
   <project path="vendor/template" name="vendor_template" />
   <project path="vendor/xiaomi" name="vendor_xiaomi" />
   <project path="vendor/xiaomi/vela" name="vendor_xiaomi_vela" />
   <project path="vendor/xiaomi/vela/pyxis" name="vendor_xiaomi_pyxis" />
+
 
   <!-- openvela prebuilt emulator -->
   <project path="prebuilts/emulator/linux-x86_64" name="prebuilts_emulator_linux-x86_64" clone-depth="1" groups="notdefault,platform-linux" />
