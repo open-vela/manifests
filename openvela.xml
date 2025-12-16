@@ -205,10 +205,10 @@
   <project path="vendor/allwinnertech" name="vendor_allwinnertech" />
   <project path="vendor/bes" name="vendor_bes" />
   <project path="vendor/espressif" name="vendor_espressif" />
-  <project path="vendor/flagchip" name="velaos/vendor/flagchip" />
-  <project path="vendor/infineon" name="velaos/vendor/infineon" />
+  <project path="vendor/flagchip" name="vendor_flagchip" />
+  <project path="vendor/infineon" name="vendor_infineon" />
   <project path="vendor/openvela" name="vendor_openvela" />
-  <project path="vendor/openvela/boards/sil" name="vela/vendor/openvela/boards/sil" />
+  <project path="vendor/openvela/boards/sil" name="vendor_openvela_boards_sil" />
   <project path="vendor/sifli" name="vendor_sifli" />
   <project path="vendor/template" name="vendor_template" />
   <project path="vendor/xiaomi" name="vendor_xiaomi" />
@@ -264,6 +264,11 @@
 
   <project path="prebuilts/gcc/linux-x86_64/xtensa-esp32s3-elf" name="openvela-toolchain-external/prebuilts_gcc_linux-x86_64_xtensa-esp32s3-elf"
            remote="git" revision="main" clone-depth="1" groups="notdefault,platform-linux" />
+
+  <!-- tricore prebuilt -->
+  <project path="prebuilts/gcc/linux/tricore-elf" name="prebuilts_gcc_linux_tricore" revision="trunk" clone-depth="1" groups="notdefault,platform-linux" />
+
+
 
   <project path="prebuilts/tools" name="prebuilts_tools" clone-depth="1" />
 
