@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="openvela.xml" />
+
+  <project path="external/qemu/qemu" name="vela-qemu/platform/external/qemu" />
+</manifest>
