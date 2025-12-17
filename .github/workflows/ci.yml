@@ -10,5 +10,6 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   ci:
-    uses: open-vela/public-actions/.github/workflows/ci.yml@v-trunk
+    if: github.event.pull_request.base.ref == 'trunk'
+    uses: open-vela/public-actions/.github/workflows/ci.yml@trunk
     secrets: inherit
