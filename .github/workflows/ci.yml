@@ -11,5 +11,5 @@ on:
 jobs:
   ci:
     if: github.event.pull_request.base.ref == 'trunk'
-    uses: open-vela/public-actions/.github/workflows/ci.yml@trunk
+    uses: open-vela/public-actions/.github/workflows/ci.yml@0043ece657d53eeb01a76aed2829b8a8e4211072
     secrets: inherit
