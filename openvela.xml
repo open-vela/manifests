@@ -208,6 +208,8 @@
   <project path="vendor/espressif" name="vendor_espressif" />
   <project path="vendor/flagchip" name="vendor_flagchip" />
   <project path="vendor/infineon" name="vendor_infineon" />
+  <project path="vendor/infineon/chips/aurix/illd" name="vendor_infineon_chips_aurix_illd" />
+  <project path="vendor/infineon/chips/aurix/illd/tc4x/Libraries" name="vendor_infineon_chips_aurix_illd_tc4x_Libraries" />
   <project path="vendor/openvela" name="vendor_openvela" />
   <project path="vendor/openvela/boards/sil" name="vendor_openvela_boards_sil" />
   <project path="vendor/sifli" name="vendor_sifli" />
@@ -267,7 +269,7 @@
            remote="git" revision="main" clone-depth="1" groups="notdefault,platform-linux" />
 
   <!-- tricore prebuilt -->
-  <project path="prebuilts/gcc/linux/tricore-elf" name="prebuilts_gcc_linux_tricore" revision="trunk" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/gcc/linux-x86_64/tricore-elf" name="prebuilts_gcc_linux_tricore" revision="trunk" clone-depth="1" groups="notdefault,platform-linux" />
 
 
 
