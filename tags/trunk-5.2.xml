@@ -252,7 +252,7 @@
   <project path="prebuilts/build-tools/windows-x86_64" name="prebuilts_build-tools_windows-x86_64" clone-depth="1" groups="notdefault,platform-windows" />
 
   <project path="prebuilts/gcc/linux-x86_64/xtensa-esp32s3-elf" name="openvela-toolchain-external/prebuilts_gcc_linux-x86_64_xtensa-esp32s3-elf"
-           remote="git" clone-depth="1" groups="notdefault,platform-linux" />
+           remote="git" revision="main" clone-depth="1" groups="notdefault,platform-linux" />
 
   <project path="prebuilts/tools" name="prebuilts_tools" clone-depth="1" />
 
