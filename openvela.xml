@@ -184,6 +184,7 @@
   <project path="nuttx/drivers/segger/SystemView" name="nuttx_drivers_segger_SystemView" />
   <project path="nuttx/fs/fatfs/fatfs" name="nuttx_fs_fatfs" />
   <project path="nuttx/fs/littlefs/littlefs" name="nuttx_fs_littlefs_littlefs" />
+  <project path="nuttx/fs/yaffs/yaffs" name="nuttx_fs_yaffs" />
   <project path="nuttx/libs/libc/audio/libsrc/libsamplerate" name="nuttx_libs_libc_audio_libsrc_libsamplerate" />
   <project path="nuttx/libs/libc/fdt/dtc" name="nuttx_libs_libc_fdt_dtc" />
   <project path="nuttx/libs/libc/gnssutils/minmea" name="nuttx_libs_libc_gnssutils_minmea" />
