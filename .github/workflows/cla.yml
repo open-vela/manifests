@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: cla
 
 # Controls when the workflow will run
 on:
@@ -12,4 +12,3 @@ jobs:
   ci:
     uses: liujinye-sys/public-actions/.github/workflows/ci.yml@dev
     secrets: inherit
-    
