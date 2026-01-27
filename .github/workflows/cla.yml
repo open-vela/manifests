@@ -1,0 +1,22 @@
+name: cla-check
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+  issue_comment:
+    types: [created]
+
+# Set permissions for the workflow
+permissions:
+  contents: read
+  pull-requests: write
+  statuses: write
+  issues: write
+  checks: write
+
+jobs:
+  cla-check:
+    # Only run on pull request events or comments containing /check-cla
+    if: github.event_name == 'pull_request' || (github.event.issue.pull_request && contains(github.event.comment.body, '/check-cla'))
+    uses: liujinye-sys/public-actions/.github/workflows/cla.yml@dev
+    secrets: inherit
