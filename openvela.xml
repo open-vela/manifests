@@ -15,6 +15,7 @@
   <project path="apps/graphics/libyuv/libyuv" name="apps_graphics_libyuv" />
   <project path="apps/graphics/lvgl/lvgl" name="apps_graphics_lvgl" />
   <project path="apps/interpreters/lua/lua" name="apps_interpreters_lua" />
+  <project path="apps/interpreters/quickjs/quickjs" name="apps_interpreters_quickjs" />
   <project path="apps/interpreters/wamr/wamr" name="apps_interpreters_wamr" />
   <project path="apps/math/gemmlowp/gemmlowp" name="apps_math_gemmlowp" />
   <project path="apps/math/kissfft/kissfft" name="apps_math_kissfft" />
@@ -154,6 +155,8 @@
   <project path="frameworks/multimedia/media" name="frameworks_multimedia_media" />
   <project path="frameworks/multimedia/media/pfw" name="frameworks_multimedia_media_pfw" />
   <project path="frameworks/runtimes" name="frameworks_runtimes" />
+  <project path="frameworks/runtimes/ash" name="frameworks_runtimes_ash" />
+  <project path="frameworks/runtimes/feature" name="frameworks_runtimes_feature" />
   <project path="frameworks/runtimes/services" name="frameworks_runtimes_services" />
   <project path="frameworks/runtimes/services/am" name="frameworks_runtimes_services_am" />
   <project path="frameworks/runtimes/services/brightness" name="frameworks_runtimes_services_brightness" />
