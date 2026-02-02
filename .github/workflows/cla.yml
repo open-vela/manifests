@@ -1,0 +1,12 @@
+name: CLA
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+  issue_comment:
+    types: [created]
+
+jobs:
+  cla:
+    uses: open-vela/public-actions/.github/workflows/cla.yml@dev
+    secrets: inherit
