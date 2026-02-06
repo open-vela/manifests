@@ -215,6 +215,7 @@
   <project path="vendor/infineon/chips/aurix/illd/tc4x/Libraries" name="vendor_infineon_chips_aurix_illd_tc4x_Libraries" />
   <project path="vendor/openvela" name="vendor_openvela" />
   <project path="vendor/openvela/boards/sil" name="vendor_openvela_boards_sil" />
+  <project path="vendor/gravityxr" name="vendor_gravityxr" />
   <project path="vendor/sifli" name="vendor_sifli" />
   <project path="vendor/template" name="vendor_template" />
   <project path="vendor/xiaomi" name="vendor_xiaomi" />
