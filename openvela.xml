@@ -68,6 +68,7 @@
   <project path="external/android/system/tools/hidl" name="external_android_system_tools_hidl" />
   <project path="external/atomic_queue/atomic_queue" name="external_atomic_queue" />
   <project path="external/auto-pts/auto-pts" name="external_auto-pts" />
+  <project path="external/bailian_sdk" name="external_bailian_sdk" />
   <project path="external/avb/avb" name="external_avb" />
   <project path="external/bzip2/bzip2" name="external_bzip2" />
   <project path="external/c-ares/c-ares" name="external_c-ares" />
