@@ -206,6 +206,7 @@
   <project path="vendor/bes" name="vendor_bes" />
   <project path="vendor/espressif" name="vendor_espressif" />
   <project path="vendor/openvela" name="vendor_openvela" />
+  <project path="vendor/sifli" name="vendor_sifli" revision="trunk-5.2" />
   <project path="vendor/template" name="vendor_template" />
   <project path="vendor/xiaomi" name="vendor_xiaomi" />
   <project path="vendor/xiaomi/vela" name="vendor_xiaomi_vela" />
