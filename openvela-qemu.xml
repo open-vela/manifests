@@ -2,5 +2,5 @@
 <manifest>
   <include name="openvela.xml" />
 
-  <project path="external/qemu/qemu" name="vela-qemu/platform/external/qemu" />
+  <project path="external/qemu/qemu" name="external_qemu" revision="rebase-trunk-dev-20260422" />
 </manifest>
