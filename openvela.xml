@@ -4,6 +4,8 @@
   <remote fetch="../" name="git" />
   <default remote="openvela" revision="trunk" />
 
+  <project path=".claude" name=".claude" />
+
   <project path="apps" name="nuttx-apps" />
   <project path="apps/benchmarks/coremark/coremark" name="apps_benchmarks_coremark" />
   <project path="apps/benchmarks/test-tlb/test-tlb" name="apps_benchmarks_test-tlb" />
@@ -202,6 +204,7 @@
   <project path="nuttx/openamp/libmetal" name="nuttx_openamp_libmetal" />
   <project path="nuttx/openamp/open-amp" name="nuttx_openamp_open-amp" />
   <project path="packages" name="packages" />
+  <project path="packages/ai_agent" name="packages_ai_agent" />
   <project path="packages/apps" name="packages_apps" />
   <project path="packages/demos" name="packages_demos" />
   <project path="packages/fe/examples" name="packages_fe_examples"/>
