@@ -1,14 +1,14 @@
-# Dispatcher for the jyliutestci end-to-end test branch.
-# Routes to liujinye-sys/public-actions test branch carrying the
-# vendor-based matrix + result aggregation fix.
+# This is a basic workflow to help you get started with Actions
 
 name: CI
 
+# Controls when the workflow will run
 on:
   pull_request_target:
     types: [opened, reopened, synchronize]
 
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   ci:
-    uses: liujinye-sys/public-actions/.github/workflows/ci-real.yml@test/ci-matrix-by-vendor
+    uses: liujinye-sys/public-actions/.github/workflows/ci.yml@dev
     secrets: inherit
