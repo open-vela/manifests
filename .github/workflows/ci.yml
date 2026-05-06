@@ -10,5 +10,5 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   ci:
-    uses: liujinye-sys/public-actions/.github/workflows/ci.yml@dev
+    uses: liujinye-sys/public-actions/.github/workflows/ci.yml@feat/ci-add-kcore0-and-qemu-tasks
     secrets: inherit
