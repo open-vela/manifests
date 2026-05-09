@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <include name="openvela.xml" />
+  <include name="openvela.xml"/>
 
-  <project path="external/qemu/qemu" name="external_qemu" revision="rebase-trunk-dev-20260422" />
+  <project path="external/qemu/qemu" name="external_qemu"/>
 </manifest>
