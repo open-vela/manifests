@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="../open-vela/" name="openvela"/>
   <remote fetch="../" name="git"/>
-  <default remote="openvela" revision="dev"/>
+  <default remote="openvela" revision="dev-ai-contest-2026"/>
 
   <project path="apps" name="nuttx-apps"/>
   <project path="apps/benchmarks/coremark/coremark" name="apps_benchmarks_coremark"/>
