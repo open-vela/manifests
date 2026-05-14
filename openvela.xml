@@ -215,6 +215,7 @@
   <project path="vendor/bes" name="vendor_bes" />
   <project path="vendor/espressif" name="vendor_espressif" />
   <project path="vendor/flagchip" name="vendor_flagchip" />
+  <project path="vendor/gigadevice" name="vendor_gigadevice" />
   <project path="vendor/infineon" name="vendor_infineon" />
   <project path="vendor/infineon/chips/aurix/illd" name="vendor_infineon_chips_aurix_illd" />
   <project path="vendor/infineon/chips/aurix/illd/tc4x/Libraries" name="vendor_infineon_chips_aurix_illd_tc4x_Libraries" />
