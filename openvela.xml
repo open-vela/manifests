@@ -212,6 +212,7 @@
   <project path="tests" name="tests" />
   <project path="vendor" name="vendor" />
   <project path="vendor/allwinnertech" name="vendor_allwinnertech" />
+  <project path="vendor/artinchip" name="vendor_artinchip" />
   <project path="vendor/bes" name="vendor_bes" />
   <project path="vendor/espressif" name="vendor_espressif" />
   <project path="vendor/flagchip" name="vendor_flagchip" />
