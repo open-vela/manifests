@@ -160,7 +160,6 @@
   <project path="frameworks/runtimes" name="frameworks_runtimes"/>
   <project path="frameworks/runtimes/ash" name="frameworks_runtimes_ash"/>
   <project path="frameworks/runtimes/feature" name="frameworks_runtimes_feature"/>
-  <project path="frameworks/runtimes/quickapp" name="frameworks_runtimes_quickapp" />
   <project path="frameworks/runtimes/services" name="frameworks_runtimes_services"/>
   <project path="frameworks/runtimes/services/am" name="frameworks_runtimes_services_am"/>
   <project path="frameworks/runtimes/services/brightness" name="frameworks_runtimes_services_brightness"/>
@@ -221,6 +220,7 @@
   <project path="vendor/infineon/chips/aurix/illd" name="vendor_infineon_chips_aurix_illd"/>
   <project path="vendor/infineon/chips/aurix/illd/tc4x/Libraries" name="vendor_infineon_chips_aurix_illd_tc4x_Libraries"/>
   <project path="vendor/openvela" name="vendor_openvela"/>
+  <project path="vendor/openvela/boards/vela/libs" name="libs_openvela_vela"/>
   <project path="vendor/openvela/boards/sil" name="vendor_openvela_boards_sil"/>
   <project path="vendor/gravityxr" name="vendor_gravityxr"/>
   <project path="vendor/sifli" name="vendor_sifli"/>
