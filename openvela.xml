@@ -227,6 +227,7 @@
   <project path="vendor/gravityxr" name="vendor_gravityxr"/>
   <project path="vendor/rockchip" name="vendor_rockchip"/>
   <project path="vendor/sifli" name="vendor_sifli"/>
+  <project path="vendor/sifli/boards/sf32lb52/libs" name="libs_sifli_sf32lb52"/>
   <project path="vendor/SpacemiT" name="vendor_SpacemiT"/>
   <project path="vendor/st" name="vendor_st"/>
   <project path="vendor/template" name="vendor_template"/>
