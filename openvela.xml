@@ -222,6 +222,7 @@
   <project path="vendor/infineon" name="vendor_infineon" />
   <project path="vendor/infineon/chips/aurix/illd" name="vendor_infineon_chips_aurix_illd" />
   <project path="vendor/infineon/chips/aurix/illd/tc4x/Libraries" name="vendor_infineon_chips_aurix_illd_tc4x_Libraries" />
+  <project path="vendor/loongsonpi" name="vendor_loongsonpi" />
   <project path="vendor/openvela" name="vendor_openvela" />
   <project path="vendor/openvela/boards/vela/libs" name="libs_openvela_vela" />
   <project path="vendor/openvela/boards/sil" name="vendor_openvela_boards_sil" />
